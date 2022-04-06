@@ -177,7 +177,7 @@ h2:after {
     line-height: 40px;
     font-size: 14px;
     text-align: center;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     height: 100%;
 }
 
@@ -712,7 +712,7 @@ a.scrollup {
     height: 250px; */
     /* background-color: #CCCCCC; */
     position: relative;
-    border: 7px solid orange;
+    /* border: 7px solid orange; */
 }
 
 .child {
@@ -722,4 +722,9 @@ a.scrollup {
     position: absolute;
     bottom: 0px;
     right: 0px;
+}
+
+.swastik-bg {
+    background-image: url(../img/bgswastik-pattern.jpg) !important;
+    background-repeat: repeat !important;
 }
