@@ -1,4 +1,4 @@
-﻿/*=============================================================
+/*=============================================================
     Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
 
@@ -182,7 +182,11 @@ h2:after {
 }
 
 .parichay {
-    background-color: rgba(255, 153, 0, 0.352);
+    background-color: rgba(37, 34, 32, 0.76);
+    color: #F7F7F7;
+    border: 2px solid rgba(0, 0, 0, 0.779);
+    border-bottom: 1px solid red;
+    padding: 2px;
 }
 
 #main-head input:focus {
@@ -216,7 +220,7 @@ h2:after {
     ===================================*/
 
 #carousel-slider {
-    border: 3px double orangered;
+    /* border: 3px double orange; */
 }
 
 
@@ -256,13 +260,13 @@ h2:after {
 .carousel-indicators li {
     width: 20px;
     height: 20px;
-    border: 5px solid #55068A;
+    border: 2px solid rgba(255, 255, 255, 0.514);
 }
 
 .carousel-indicators .active {
     width: 20px;
     height: 20px;
-    background-color: orangered;
+    background-color: rgba(255, 166, 0, 0.76);
 }
 
 
@@ -272,8 +276,8 @@ h2:after {
 
 .btn-style-1 {
     color: #fff;
-    background-color: orangered;
-    border-color: #55068A;
+    background-color: rgba(255, 68, 0, 0.767);
+    border-color: orange;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
@@ -301,8 +305,8 @@ h2:after {
     -moz-border-radius: 0px;
     border-radius: 0px;
     color: #fff;
-    background-color: #55068A;
-    border-color: #245e49;
+    background-color: rgba(255, 68, 0, 0.486);
+    border-color: orange;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -324,8 +328,8 @@ h2:after {
 
 .btn-style-2 {
     color: #fff;
-    background-color: #55068A;
-    border-color: #55068A;
+    background-color: rgba(255, 68, 0, 0.532);
+    border-color: orange;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -367,12 +371,12 @@ h2:after {
     display: inline-block;
     border-radius: 100%;
     margin-bottom: 10px;
-    background-color: #55068A;
+    background-color: orangered;
     color: #fff;
 }
 
 .icon-round:hover {
-    background-color: orangered;
+    background-color: rgba(255, 166, 0, 0.646);
     cursor: pointer;
 }
 
@@ -382,7 +386,7 @@ h2:after {
     ===================================*/
 
 #budget {
-    background-color: #A944F8;
+    background-color: orangered;
     color: #fff;
     padding: 20px;
 }
@@ -410,7 +414,7 @@ h2:after {
     ===================================*/
 
 .reviews-section {
-    background: #db3615;
+    background: orangered;
     text-align: center;
 }
 
@@ -492,7 +496,7 @@ h2:after {
     height: 100%;
     opacity: 0;
     border-radius: 0;
-    background-color: #55068A;
+    background-color: orangered;
     color: #fff;
     vertical-align: middle;
     -webkit-transition: opacity 500ms;
@@ -552,7 +556,7 @@ h2:after {
     ===================================*/
 
 #footer-sec {
-    background-color: #61069E;
+    background-color: orangered;
     color: #fff;
     padding: 20px;
 }
@@ -572,8 +576,8 @@ h2:after {
     font-size: 12px;
 }
 
-#footer-sec p {
-    border-right: 1px solid #6D1FA2;
+#footer-sec {
+    border-right: 1px solid orangered;
     padding-right: 10px;
 }
 
@@ -583,13 +587,13 @@ h2:after {
 }
 
 #blog-footer-div {
-    border-right: 1px solid #6D1FA2;
+    border-right: 1px solid orangered;
     padding-right: 10px;
 }
 
 #footser-end {
     text-align: right;
-    background-color: #55068A;
+    background-color: orangered;
     color: #fff;
     padding: 10px;
 }
@@ -600,7 +604,7 @@ h2:after {
     ===================================*/
 
 a.scrollup {
-    background: #730EB8;
+    background: orangered;
     height: 32px;
     width: 32px;
     color: #fff;
@@ -641,4 +645,81 @@ a.scrollup {
     position: absolute;
     top: 50%;
     width: 200px;
+}
+
+
+/* Custom Scroll Bar Start */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    /* border-radius: 5px; */
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: orange;
+    /* border-radius: 5px; */
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 68, 0, 0.861);
+}
+
+
+/* Custom Scroll Bar Ends */
+
+.card-img-top {
+    max-height: 300px;
+}
+
+.marginlagade {
+    margin: 7px;
+    width: auto;
+}
+
+.mb-4 {
+    margin-bottom: 15px;
+}
+
+.event-bhagwa>* {
+    background-color: orange;
+}
+
+.event-bhagwa img {
+    margin: 15px;
+    margin-right: 0px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.parent {
+    /* width: 250px;
+    height: 250px; */
+    /* background-color: #CCCCCC; */
+    position: relative;
+    border: 7px solid orange;
+}
+
+.child {
+    width: 40%;
+    height: 100%;
+    /* background-color: #99999; */
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
