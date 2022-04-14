@@ -1,4 +1,4 @@
-﻿    /*=============================================================
+    /*=============================================================
     Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
 
@@ -382,6 +382,8 @@
     .reviews-section {
         background: orangered;
         text-align: center;
+        font-family: 'Noto Sans Devanagari', sans-serif;
+        font-size: 17px;
     }
     
     .reviews-section h2 {
@@ -408,8 +410,11 @@
     
     #recent-events {
         padding-bottom: 20px;
+        padding-top: 20px;
         /* padding-top: 30px; */
         /* background-color: #F7F7F7; */
+        font-family: 'Noto Sans Devanagari', sans-serif;
+        font-size: 18px;
     }
     
     #recent-events i {
@@ -518,6 +523,8 @@
         color: #fff;
         /* padding: 20px; */
         text-align: center;
+        font-family: 'Noto Sans Devanagari', sans-serif;
+        font-size: 16px;
     }
     
     #footer-sec i {
@@ -554,6 +561,7 @@
         background-color: orangered;
         color: #fff;
         /* padding: 10px; */
+        font-family: 'Rhodium Libre', serif;
     }
     /*=====================================
   SCROLL UP STYLES 
@@ -702,6 +710,8 @@
         /* flex-wrap: wrap; */
         justify-content: center;
         flex-wrap: wrap;
+        font-family: 'Noto Sans Devanagari', sans-serif;
+        font-size: 17px;
         /* flex-direction: row; */
     }
     /*     
