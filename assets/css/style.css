@@ -1,4 +1,4 @@
-    /*=============================================================
+﻿    /*=============================================================
     Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
 
@@ -12,10 +12,13 @@
    GENERAL STYLE SECTION
     ===================================*/
     
+    @import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Amita:wght@400;700&family=Asar&family=Gotu&family=Halant:wght@400;600&family=IBM+Plex+Sans+Devanagari:wght@300;400;600&family=Kurale&family=Noto+Sans+Devanagari:wght@400;700&family=Ranga:wght@400;700&family=Rhodium+Libre&display=swap');
     body {
-        font-family: 'Open Sans', sans-serif;
+        /* font-family: 'Open Sans', sans-serif; */
         font-size: 14px;
         line-height: 30px;
+        margin: 0;
+        padding: 0;
     }
     
     .pad-low {
@@ -29,7 +32,7 @@
     h1,
     h2,
     h3.h4 {
-        font-family: 'Nova Flat';
+        /* font-family: 'Nova Flat'; */
     }
     
     h3 {
@@ -129,10 +132,15 @@
     
     .header-sec-bar {
         background-color: orangered;
-        font-size: 14px;
+        font-size: 22px;
         text-align: center;
         color: #fff;
         padding: 10px;
+    }
+    
+    .header-sec-bar {
+        font-family: 'Rhodium Libre', serif;
+        font-weight: 700;
     }
     
     .header-sec-bar i {
@@ -145,11 +153,7 @@
     
     #main-head {
         color: rgb(0, 0, 0);
-        padding: 20px 10px 35px 10px;
-        line-height: 40px;
-        font-size: 14px;
-        text-align: center;
-        /* background-color: #ffffff; */
+        background-color: #ffffff;
         height: 100%;
     }
     
@@ -352,15 +356,24 @@
     ===================================*/
     
     #vedio-sec {
-        padding-bottom: 80px;
+        padding-bottom: 50px;
         padding-top: 50px;
     }
     
     .vedio-style {
         border: 0px;
         width: 100%;
-        min-height: 300px;
-        margin-top: 10px;
+        min-height: 20vh;
+        max-width: 20vw;
+        /* margin-top: 10px; */
+    }
+    
+    .vid-card {
+        /* background-color: #ff4500; */
+    }
+    
+    .vid-text {
+        min-height: 50vh;
     }
     /*=====================================
   REVIEW STYLES 
@@ -372,7 +385,7 @@
     }
     
     .reviews-section h2 {
-        padding-top: 50px;
+        padding-top: 30px;
         color: #fff;
     }
     
@@ -395,7 +408,7 @@
     
     #recent-events {
         padding-bottom: 20px;
-        padding-top: 30px;
+        /* padding-top: 30px; */
         /* background-color: #F7F7F7; */
     }
     
@@ -503,11 +516,12 @@
     #footer-sec {
         background-color: orangered;
         color: #fff;
-        padding: 20px;
+        /* padding: 20px; */
+        text-align: center;
     }
     
     #footer-sec i {
-        margin-right: 10px;
+        /* margin-right: 10px; */
     }
     
     #footer-sec span {
@@ -516,14 +530,14 @@
     }
     
     #footer-sec small {
-        display: table-cell;
+        /* display: table-cell; */
         color: #000;
         font-size: 12px;
     }
     
     #footer-sec {
         border-right: 1px solid orangered;
-        padding-right: 10px;
+        /* padding-right: 10px; */
     }
     
     #footer-sec .media-heading {
@@ -537,10 +551,9 @@
     }
     
     #footser-end {
-        text-align: right;
         background-color: orangered;
         color: #fff;
-        padding: 10px;
+        /* padding: 10px; */
     }
     /*=====================================
   SCROLL UP STYLES 
@@ -596,12 +609,12 @@
         background-image: url("../img/loader2.gif");
         background-position: center center;
         background-repeat: no-repeat;
-        height: 200px;
+        height: 150px;
         left: 50%;
         margin: -100px 0 0 -100px;
         position: absolute;
         top: 50%;
-        width: 200px;
+        width: 150px;
     }
     /* Custom Scroll Bar Start */
     /* width */
@@ -642,8 +655,10 @@
     }
     
     .event-bhagwa>* {
-        background-color: orange;
-        box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.50);
+        /* background-color: orange; */
+        background-color: rgba(37, 34, 32, 0.76);
+        color: #F7F7F7;
+        box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.71);
         text-align: center;
     }
     
@@ -656,20 +671,23 @@
     }
     
     .parent {
-        /* width: 250px;
-    height: 250px; */
-        /* background-color: #CCCCCC; */
-        position: relative;
-        /* border: 7px solid orange; */
+        min-height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
     }
     
     .child {
-        width: 40%;
+        /* width: 40%;
         height: 100%;
-        /* background-color: #99999; */
         position: absolute;
         bottom: 0px;
-        right: 0px;
+        right: 0px; */
+        padding: 10px;
+        position: inherit;
+        box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.966);
+        min-height: 40vh;
+        background-color: rgba(0, 0, 0, 0.619);
     }
     
     .swastik-bg {
@@ -677,10 +695,60 @@
         background-repeat: repeat !important;
     }
     
+    .wani {
+        /* text-align: center; */
+        /* flex-flow: row wrap; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+    }
+    /*     
+    div:nth-child(6n) {
+        flex-grow: 1;
+        min-width: 33%;
+    }
+     */
+    
+    .bol {
+        border: 2px dotted #F7F7F7;
+        width: 350px;
+        margin: 15px 5px;
+        padding: 5px;
+        font-size: larger;
+    }
+    
+    .bol p {
+        color: #F7F7F7;
+        /* margin: 0; */
+    }
+    
+    .parichay-text {
+        font-size: 16px;
+        font-family: 'Noto Sans Devanagari', sans-serif;
+        text-align: left;
+    }
+    
     @media only screen and (max-width: 498px) {
         .event-bhagwa img {
             max-width: 300px;
             margin: 10px;
+        }
+        .wani {
+            display: grid;
+        }
+        .bol {
+            margin: 7px 5px;
+            width: 340px;
+            font-size: large;
+        }
+    }
+    
+    @media screen and (max-width: 1200px) and (min-width: 998px) {
+        .parichay-text {
+            font-size: 14px;
+            line-height: 2.2;
         }
     }
     
@@ -688,6 +756,10 @@
         .event-bhagwa img {
             max-width: 400px;
             margin: 10px;
+        }
+        .bol {
+            margin: 7px 5px;
+            width: 500px;
         }
     }
     
@@ -715,5 +787,143 @@
             top: 40%;
             -ms-transform: translateY(-20%);
             transform: translateY(-50%);
+        }
+    }
+    /* custom video player section starts */
+    /* .videos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .video {
+        width: 270px;
+        margin-bottom: 30px;
+    }
+    
+    .thumbnail {
+        width: 100%;
+        height: 170px;
+    }
+    
+    .thumbnail img {
+        object-fit: cover;
+        height: 94%;
+        width: 100%;
+    }
+    
+    .author img {
+        object-fit: cover;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+    }
+    
+    .details {
+        display: flex;
+    }
+    
+    .title {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title h3 {
+        color: rgb(3, 3, 3);
+        line-height: 18px;
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    
+    .title a,
+    span {
+        text-decoration: none;
+        color: rgb(96, 96, 96);
+        font-size: 12px;
+    } */
+    /* custom video player section ends */
+    
+    .pustak {
+        /* display: flex; */
+    }
+    
+    .pustak img {
+        /* max-width: 80vw; */
+        max-height: auto;
+    }
+    
+    .main-cont {
+        min-width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F7F7F7;
+    }
+    
+    .main-cont img {
+        max-width: 40em;
+        max-height: 40em;
+    }
+    
+    .main-cont p {
+        max-width: 35em;
+        padding-right: 15px;
+        font-size: 22px;
+        line-height: 2;
+        font-family: 'Noto Sans Devanagari', sans-serif;
+        /* text-align: center; */
+    }
+    
+    @media only screen and (max-width: 499px) {
+        .main-cont {
+            max-width: 100vw;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            /* font-size: 16px; */
+        }
+        .main-cont img {
+            max-width: 100vw;
+        }
+        .main-cont p {
+            max-width: 35em;
+            padding: 10px;
+            padding-top: 20px;
+            font-size: 18px;
+            line-height: 1.8;
+            /* text-align: center; */
+        }
+    }
+    
+    @media only screen and (max-width: 768px) and (min-width: 500px) {
+        .main-cont {
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center;
+        align-items: center; */
+            text-align: center;
+        }
+        .main-cont img {
+            max-width: 80vw;
+        }
+        .main-cont p {
+            max-width: 70vw;
+            text-align: center;
+        }
+    }
+    
+    @media only screen and (max-width: 1200px) and (min-width: 769px) {
+        .main-cont img {
+            max-width: 70vw;
+            max-height: 35em;
+        }
+        .main-cont p {
+            max-width: 25em;
+            padding-right: 10px;
+            font-size: 19px;
+            line-height: 2;
+            /* text-align: center; */
         }
     }
