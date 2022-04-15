@@ -722,11 +722,11 @@
      */
     
     .bol {
-        border: 2px dotted #F7F7F7;
         width: 350px;
         margin: 15px 5px;
         padding: 5px;
         font-size: larger;
+        background-color: rgba(24, 19, 13, 0.5);
     }
     
     .bol p {
