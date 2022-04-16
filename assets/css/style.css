@@ -1011,6 +1011,10 @@
         border-radius: 8px;
     }
 
+    .wani p{
+        color: #F7F7F7;
+    }
+
     .site-development a{
         text-decoration: none;
         color: rgb(255, 255, 255);
